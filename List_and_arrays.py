@@ -42,7 +42,8 @@ for i in x:
 print(num)
 ## task: list ko reverse order mein print karo (bina reverse() function use kiye)
 x = [10, 20, 30, 40, 50]
-print(x[-1:5])
+for i in range(4,-1,-1):
+    print(x[i])
 
     
 
