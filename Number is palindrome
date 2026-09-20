@@ -1,0 +1,11 @@
+#check if the number is palindrome
+name = 'Urooj'
+left = 0
+right = len(name) - 1
+ispalindrome = True
+while left < right:
+    if name[left] != name[right]:
+        ispalindrome = False
+    left = left +1
+    right = right -1
+print(ispalindrome)
